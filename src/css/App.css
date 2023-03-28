@@ -1,0 +1,72 @@
+.App{
+    background-color: rgba(255, 0, 0, 0.332);
+    /* width: 60%;
+    height: 40%; */
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 1px solid brown;
+    padding: 1rem;
+
+}
+.inpt{
+    border: 1px solid brown;
+    background-color: inherit;
+    border-radius: 15px;
+    width: 400px;
+    padding: 10px;
+    box-shadow: 2px 4px 7px rgba(255, 0, 0, 0.332);
+}
+.inpt::placeholder{
+    color: white;
+    font-size: 23px;
+
+}
+.btn1{
+background-color: inherit;
+border-radius: 15px;
+padding: 5px;
+box-shadow: 2px 4px 7px rgba(255, 0, 0, 0.332);
+border: 1px solid brown;
+width: 80px;
+color: white;
+font-size: 20px;
+
+}
+ul{
+    margin-top: 2rem;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+li{
+    list-style: none;
+    color: white;
+    border: 1px solid black;
+    background-color: rgb(246, 137, 137);
+    border: 1px solid brown;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 13px;
+    font-size: 24px;
+}
+.btn2{
+    border-radius: 15px;
+    box-shadow: 2px 4px 7px rgba(255, 0, 0, 0.332);
+    width: 40px;
+    height: 40px;
+    font-size: 10px;
+    margin-left: 1rem;
+    background-color: inherit;
+    color: white;
+    
+}
